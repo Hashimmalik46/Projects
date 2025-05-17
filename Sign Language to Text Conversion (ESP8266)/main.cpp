@@ -91,10 +91,10 @@ String detectGesture(float gx, float gy, float gz) {
     if (gy > 2) { 
         Blynk.logEvent("alert3"); 
         return "How are you?";
-    } 
+    }
     if (gy < -2) { 
         Blynk.logEvent("alert4"); 
-        return "What are you doing?";
+        return "I'm fine!";
     }
     if (gz > 2) { 
         Blynk.logEvent("alert5"); 
